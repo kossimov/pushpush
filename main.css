@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(43, 156, 154);
+}
+
+.title {
+  font-weight: 800;
+  font-size: 50px;
+  color: rgb(114, 8, 163);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.first-input {
+  display: block;
+  margin-bottom: 50px;
+  padding: 20px;
+  width: 500px;
+  color: rgb(150, 127, 255);
+  outline: none;
+  border: 2px solid rgb(0, 255, 115);
+}
+
+.last-input {
+  margin-bottom: 50px;
+  padding: 20px;
+  width: 500px;
+  color: rgb(150, 127, 255);
+  outline: none;
+  border: 2px solid rgb(0, 255, 115);
+}
+
+.add-btn {
+  background-color: rgb(101, 44, 148);
+  padding: 20px;
+  width: 543px;
+  border: none;
+  color: yellow;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.remove-after {
+  background-color: rgb(60, 44, 148);
+  padding: 20px;
+  width: 73px;
+  border: none;
+  color: yellow;
+  cursor: pointer;
+}
+
+.remove-before {
+  background-color: rgb(60, 44, 148);
+  padding: 20px;
+  width: 73px;
+  border: none;
+  color: yellow;
+  cursor: pointer;
+}
